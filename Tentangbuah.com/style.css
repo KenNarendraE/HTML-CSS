@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+}
+
+.content{
+    margin-top: 2%;
+}
+
+header img{
+    width: 60px;
+    float: left;
+}
+
+header h1{
+    background: lightgreen;
+    color: black;
+    margin-left: 6%;
+    position: absolute;
+}
+
+nav{
+    clear: both;
+}
+
+nav ul{
+    margin-top: 3%;
+}
+
+section img{
+    width: 300px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+section{
+    margin-top: 2%;
+}
+
+section p{
+    margin-top: 2%;
+}
+
+footer{
+    margin: 3%;
+    text-align: center;
+}
+
+.paragraf1{
+    font-family: helvetica;
+}
+
+ul{
+    background: lightgreen;
+    font-family: cursive;
+    list-style: none;
+    margin: 0px;
+    padding-left:0px ;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    background: lightgreen;
+    color: white;
+    display: inline-block;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+}
+ul li a{
+    color: #fff;
+}
+ul li:hover{
+    background: rgb(255, 104, 104);
+    cursor: pointer;
+}
+ul li ul{
+    background: lightcyan;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+ul li:hover > ul,
+ul li ul:hover{
+    visibility: visible;
+    display: block;
+}
+ul li ul li{
+    width: 100%;
+    clear: both;
+}
+
+@media only screen and (max-width:600px){
+    body{
+        background-color: lightskyblue;
+    }
+}
+
+

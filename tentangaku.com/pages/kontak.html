@@ -1,44 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-        body{
-            font-family: cursive;
-            font-size: large;
-            background-image: url(../images/dark.gif);
-            color: white;
-        }
-
-    </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TentangAku.com - Kontak</title>
+    <title>TentangAku.com</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+    <div class="wrapper">
+        <div class="content">
+            <header>   
+    <img src="../images/aku.jpg" >
     <h1>TentangAku.com - Kontak</h1>
-    <h5>Oleh Ken Narendra E.</h5>
-    <img src="../images/aku.jpg" width="100" alt="">
+    <nav>
     <ul>
-        <li>Home</li>
-        <li id="top">Sekolahku
-            <ol>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="hobi.html">Hobi</a></li>
-                <li><a href="citacita.html">cita-cita</a></li>
-                <li><a href="next10.html">next 10 year</a></li>
-            </ol>
-        </li>
+        <li><a href="../index.html"> Home</a></li>
+        <li>Kegiatanku
+            <ul>
+                <li><a href="citacita.html">CitaCita</a></li>
+                <li><a href="Hobi.html">Hobi</a></li>
+                <li><a href="sekolah.html">Sekolah</a></li>
+                <li><a href="next10.html">Next 10 Year</a></li>
+            </ul>
     </ul>
+    </nav>
+</header>
+<section>
     <fieldset>
         <legend>Kirim Pertanyaan</legend>
-        <label for="nama">nama :</label>
-        <input type="text" name="nama" id="" placeholder="Nama Anda" required >
+        <label for="nama">Nama :</label>
+        <input id="input1" type="text" name="nama" placeholder="Nama Anda" required >
         <br>
-        <label for="email">email :</label>
-        <input type="email" name="email" id="" placeholder="Email Anda" required>
+        <label for="email">Email :</label>
+        <input id="input2" type="email" name="email" placeholder="Email Anda" required>
         <br>
         <label for="alamat" >Pertanyaan:</label>
-        <textarea name="alamat" id="" cols="20" rows="5"></textarea>
+        <textarea id="input3" name="alamat" cols="20" rows="5"></textarea>
         <br>
         <input type="submit" name="kirim" value="Kirim" id="">
         <input type="reset">
@@ -46,5 +43,11 @@
 
         
     </fieldset>
+</section>
+<footer>
+    <i class="fa fa-copyright" aria-hidden="true">Created By: Kennetha</i>
+</footer>
+    </div>
+    </div>
 </body>
 </html>
