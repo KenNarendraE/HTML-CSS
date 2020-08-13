@@ -97,6 +97,17 @@ nav{
     font-size: 16px;
 }
 
+.cta-select:hover{
+    background-color: #c36cbb;
+    color: white;
+}
+
+.cta-add:hover{
+    background-color: white;
+    color: #c36cbb;
+    border: 2px solid #c36cbb;
+}
+
 .cta-add{
     border :none;
     background: #c36cbb ;
